@@ -7,5 +7,16 @@
     "node-fetch": "^3.3.2",
     "nodemon": "^3.0.3",
     "path": "^0.12.7"
-  }
+  },
+  "name": "labkaback",
+  "version": "1.0.0",
+  "main": "geolocation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Djiga",
+  "license": "ISC",
+  "description": ""
 }
