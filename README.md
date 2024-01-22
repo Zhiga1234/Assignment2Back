@@ -1,4 +1,4 @@
-# <span style="font-size:larger;">**THE WEATHER  (Zhigitali Zhanbyrbai|SE-2202**</span>
+# <span style="font-size:larger;">**THE WEATHER  (Zhigitali Zhanbyrbai)|SE-2202**</span>
 
 Welcome to **The Weather**, The Weather is a comprehensive web application that delivers up-to-date weather information, city-specific details, and relevant news articles in real-time.APIs from https://home.openweathermap.org and 
 
