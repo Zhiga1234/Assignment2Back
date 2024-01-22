@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 
 let weather = {
     apiKey: "a2b8082a0ac50246506c542822439b02",
