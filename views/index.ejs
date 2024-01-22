@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/views/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+    <title>Weather</title>
+    <script src="/public/app.js" defer async></script>
+    <script src="/geolocation.js" defer async></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <p>If you want to check the weather, enter a location :</p>
+            <input type="text" class="search-input" placeholder="Search"/>
+            <button><i class="fa-solid fa-magnifying-glass search-icon"></i></button>
+            
+            <button class="location-button" id="locationButton">
+                <i class="fas fa-location-arrow"></i> 
+            </button>
+        </div>
+        
+        <div class="weather">
+            <h3 class="city"></h3><br>
+            <h1 class="temp"></h1>
+            <div class="desc-container">
+                <img src="" class="icon" />
+                <div class="desc"></div>
+            </div>
+            <div class="humidity"></div>
+            <div class="wind-speed"></div>
+        </div>
+        <div class="forecast-container"></div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/views/style.css"></script>
+<script src="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"></script>
+<title>Weather</title>
+<script src="/public/app.js" defer async></script>
+<script src="/geolocation.js" defer async></script>
+</body>
+</html>
